@@ -12,7 +12,7 @@ export const Enrutador = () => {
                 {/* acá van las rutas */}
                 <Route element={<App />} path="/" />
                 <Route element={<CharacterDetails />} path="/people/:id" />
-                <Route elemetn={ <PlanetDetails/>} path="/planets/:id" />
+                <Route element={ <PlanetDetails/>} path="/planets/:id" />
                 <Route element={<VehicleDetails/>} path="/vehicles/:id" />
             </Routes>
         </BrowserRouter>
